@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+string decyzja;
+int main() 
+
+{
+    cout<<"Hi can I give you a pizza?"<<endl;
+    cin>>decyzja;
+    if(decyzja=="tak")
+    {
+          cout<<"Kc"<<endl;
+    }
+    else
+    {
+          cout<<"Szkoda"<<endl;
+    }
+    return 0;
+}
